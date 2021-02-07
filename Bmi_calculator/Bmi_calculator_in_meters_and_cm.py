@@ -18,7 +18,6 @@ def compare():
         print("Overweight")
     else:
         print("Obesity")
-bmi_calculator()
 kmi = bmi_calculator()
 print("Your kmi is:")
 print(kmi)
