@@ -4,11 +4,11 @@ print("Enter your height in meters or centimeters:")
 height = input()
 def bmi_calculator():
     if height[1] != ".":
-        kmi = round((weight / float(height) ** 2) * 10000)
-        return kmi
+        a = round((weight / float(height) ** 2) * 10000)
+        return a
     else:
-        kmi = round(weight / float(height) ** 2)
-        return kmi
+        a = round(weight / float(height) ** 2)
+        return a
 def compare():
     if kmi < 18.5:
         print("Underweight")
